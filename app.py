@@ -112,7 +112,7 @@ def analyze_document(document_text, user_question):
     )
 
     result = response.json()
-    st.write(result)
+    
 
     ai_response = result["choices"][0]["message"]["content"]
 
